@@ -44,7 +44,7 @@
 - The default password is `1234`.
 
 ## Bugs
-- Encryption is broken and it will soft brick the device.
+- Encryption is currently not supported.
 - Mobile data needs an APN to be set up from Settings -> Mobile -> Acess Point Names.
 - Mobile data might stop working after making or recieving phone calls. Toggle Mobile Data from the settins off/on.
 - Dual SIM functionality is currently not implemented in Phosh so only one SIM works at the moment.

@@ -26,7 +26,7 @@
 - **✖️✖️** *Global issue.*
 
 ## Requirements
-- Android 10 firmware for your device:
+- Android 9 firmware for your device:
   - Redmi Note 7: https://xiaomifirmwareupdater.com/miui/lavender/stable/V11.0.6.0.PFGMIXM/
 
 ## Files

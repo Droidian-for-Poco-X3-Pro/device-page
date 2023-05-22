@@ -8,7 +8,7 @@
 | Vibration                     	|  ✅ 	| Hardware video playback          	|  ✅ 	| Proximity           	|  ✅ 	|
 | Flashlight                    	|  ✅	| Anbox patches                    	|  ✅ 	| Rotation            	|  ✅ 	|
 | Photo                         	|  ✅	| AppArmor patches                 	|  ✅ 	| Touchscreen          	|  ✅ 	|
-| Video                         	|  ✅	| Battery percentage               	|  ✅ 	| Earphones           	|  ✅	|
+| Video                         	|  ✅✖️	| Battery percentage               	|  ✅ 	| Earphones           	|  ✅	|
 | Switching between cameras     	|  ✅	| Offline charging                 	|  ✅	| Loudspeaker          	|  ✅	|
 | Dual SIM functionality        	| ✅✖️  	| Online charging                  	|  ✅ 	| Microphone          	|  ✅	|
 | Carrier info, signal strength 	|  ✅ 	| SD card detection and access     	|  ❔ 	| Volume control       	|  ✅ 	|
@@ -49,7 +49,7 @@
 
 ## Bugs
 - Mobile data needs an APN to be set up from Settings -> Mobile -> Acess Point Names.
-- Mobile data might stop working after making or recieving phone calls. Toggle Mobile Data from the settins off/on.
+- The camera. It's problematic. Some workaround is mentioned in [wiki](https://github.com/droidian-vayu/device-page/wiki).
 - Dual SIM works if you set the second `ril` in `/etc/ofono/ril_subscription.conf`, but it is not very well tested.
 
 ## Final notes

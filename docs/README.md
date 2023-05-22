@@ -47,7 +47,7 @@
 ## Bugs
 - Mobile data needs an APN to be set up from Settings -> Mobile -> Acess Point Names.
 - Mobile data might stop working after making or recieving phone calls. Toggle Mobile Data from the settins off/on.
-- Dual SIM works if you set the second `ril` in `/etc/ofono/ril_subscription.conf`.
+- Dual SIM works if you set the second `ril` in `/etc/ofono/ril_subscription.conf`, but it is not very well tested.
 
 ## Final notes
 - I'm not responsible for bricked devices, dead SD cards, thermonuclear war, or you getting fired because the alarm app failed.

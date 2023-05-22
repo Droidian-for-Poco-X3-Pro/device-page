@@ -31,7 +31,7 @@
   - Poco X3 Pro: https://xiaomifirmwareupdater.com/miui/vayu/stable/V12.5.9.0.RJUMIXM/
 
 ## Files
-- Download the latest fastbootable image: [droidian-UNOFFICIAL-phosh-phone-xiaomi_vayu-api30-arm64-nightly_XXXXXXXX.zip](https://github.com/droidian-lavender/droidian-images/releases/tag/nightly).
+- Download the latest fastbootable image: [droidian-UNOFFICIAL-phosh-phone-xiaomi_vayu-api30-arm64-nightly_XXXXXXXX.zip](https://github.com/droidian-vayu/droidian-images/releases).
 
 ## Installation
 * Extract the archive

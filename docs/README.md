@@ -1,4 +1,3 @@
-# WIP
 ## Features & Usability
 
 |                               	|    	|                                  	|    	|                      	|   	|
@@ -26,6 +25,10 @@
 - **❔** *Not tested.*
 - **✖️✖️** *Global issue.*
 
+# Installation
+
+**You can read [wiki](https://github.com/droidian-vayu/device-page/wiki) as it is more in-depth and also contains some additional fixes/hacks.**
+
 ## Requirements
 - Android 11 firmware for your device:
   - Poco X3 Pro: https://xiaomifirmwareupdater.com/miui/vayu/stable/V12.5.9.0.RJUMIXM/
@@ -50,9 +53,9 @@
 - Dual SIM works if you set the second `ril` in `/etc/ofono/ril_subscription.conf`, but it is not very well tested.
 
 ## Final notes
-- I'm not responsible for bricked devices, dead SD cards, thermonuclear war, or you getting fired because the alarm app failed.
+- I'm not responsible for bricked devices, dead SD cards, or you getting fired because the alarm app failed.
 - Please do some research if you have any concerns about features included in the products you find here before flashing it!
-- YOU are choosing to make these modifications, and if you point the finger at me for messing up your device, I will laugh at you.
+- It's only your choice to make this modifications on your phone, and I can't be at fault if something goes wrong.
 
 # Support
 - Droidian telegram group: [@DroidianLinux](https://t.me/DroidianLinux).

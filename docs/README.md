@@ -13,7 +13,7 @@
 | Dual SIM functionality        	| ✅✖️  	| Online charging                  	|  ✅ 	| Microphone          	|  ✅	|
 | Carrier info, signal strength 	|  ✅ 	| SD card detection and access     	|  ❔ 	| Volume control       	|  ✅ 	|
 | Data connection               	|  ✅ 	| RTC time                         	|  ✅ 	| Pin unlock           	|  ✅ 	|
-| Incoming, outgoing calls      	|  ✅✖️ 	| Shutdown / Reboot                	|  ✅ 	| ADB access          	|  ✖️✖️  	|
+| Incoming, outgoing calls      	|  ✅ 	| Shutdown / Reboot                	|  ✅ 	| ADB access          	|  ✖️✖️  	|
 | MMS in, out                   	|  ❔ 	| Wireless External monitor        	|  ✖️✖️	| MTP access           	|  ✖️✖️  	|
 | SMS in, out                    	|  ✅ 	| Bluetooth                        	|  ✅ 	| WiFi			|  ✅	|
 | Change audio routings          	|  ✅	| Flight mode                      	|  ✅ 	| Hotspot		|  ❔	|
@@ -49,7 +49,6 @@
 
 ## Bugs
 - Mobile data needs an APN to be set up from Settings -> Mobile -> Acess Point Names.
-- **Audio and microphone in calls does not work for now.**
 - The camera. It's problematic. Some workaround is mentioned in [wiki](https://github.com/droidian-vayu/device-page/wiki).
 - Dual SIM works if you set the second `ril` in `/etc/ofono/ril_subscription.conf`, but it is not very well tested.
 

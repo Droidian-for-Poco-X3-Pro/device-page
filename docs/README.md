@@ -11,7 +11,7 @@
 | Video                         	|  ✅✖️	| Battery percentage               	|  ✅ 	| Earphones           	|  ✅	|
 | Switching between cameras     	|  ✅	| Offline charging                 	|  ✅	| Loudspeaker          	|  ✅	|
 | Dual SIM functionality        	| ✅✖️  	| Online charging                  	|  ✅ 	| Microphone          	|  ✅	|
-| Carrier info, signal strength 	|  ✅ 	| SD card detection and access     	|  ❔ 	| Volume control       	|  ✅ 	|
+| Carrier info, signal strength 	|  ✅ 	| SD card detection and access     	|  ✅ 	| Volume control       	|  ✅ 	|
 | Data connection               	|  ✅ 	| RTC time                         	|  ✅ 	| Pin unlock           	|  ✅ 	|
 | Incoming, outgoing calls      	|  ✅ 	| Shutdown / Reboot                	|  ✅ 	| ADB access          	|  ✖️✖️  	|
 | MMS in, out                   	|  ❔ 	| Wireless External monitor        	|  ✖️✖️	| MTP access           	|  ✖️✖️  	|

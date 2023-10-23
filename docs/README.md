@@ -1,23 +1,23 @@
-## Features & Usability
+# Features & Usability
 
 |                               	|    	|                                  	|    	|                      	|   	|
 |-------------------------------	|----	|----------------------------------	|----	|----------------------	|---	|
-| Manual brightnes              	|  ✅ 	| Battery lifetime > 24h from 100% 	|  ❔ 	| Automatic brightness  |  ✅  |
-| No reboot needed for 1 week     |  ❔	| Fingerprint reader  	            | ✖️✖️ | Waydroid		            |  ✅	|
-| Torchlight                    	|  ✅	| Boot into UI                     	|  ✅ 	| GPS                 	| ❔  	|
+| Manual brightnes              	|  ✅ 	| Battery lifetime > 24h from 100% 	|  ✅ 	| Automatic brightness  |  ✅	|
+| No reboot needed for 1 week    	|  ❔	| Fingerprint reader  	                |  ✅  	| Waydroid		|  ✅	|
+| Torchlight                    	|  ✅	| Boot into UI                     	|  ✅ 	| GPS ***               	|  ✅✖️ 	|
 | Vibration                     	|  ✅ 	| Hardware video playback          	|  ✅ 	| Proximity           	|  ✅ 	|
 | Flashlight                    	|  ✅	| Anbox patches                    	|  ✅ 	| Rotation            	|  ✅ 	|
-| Photo                         	|  ✅	| AppArmor patches                 	|  ✅ 	| Touchscreen          	|  ✅ 	|
-| Video                         	|  ✅✖️	| Battery percentage               	|  ✅ 	| Earphones           	|  ✅	|
+| Photo *                        	|  ✅✖️	| AppArmor patches                 	|  ✅ 	| Touchscreen          	|  ✅ 	|
+| Video *                        	|  ✅✖️	| Battery percentage               	|  ✅ 	| Earphones           	|  ✅	|
 | Switching between cameras     	|  ✅	| Offline charging                 	|  ✅	| Loudspeaker          	|  ✅	|
-| Dual SIM functionality        	| ✅✖️  	| Online charging                  	|  ✅ 	| Microphone          	|  ✅	|
+| Dual SIM functionality        	| ✖️✖️ 	| Online charging                  	|  ✅ 	| Microphone          	|  ✅	|
 | Carrier info, signal strength 	|  ✅ 	| SD card detection and access     	|  ✅ 	| Volume control       	|  ✅ 	|
 | Data connection               	|  ✅ 	| RTC time                         	|  ✅ 	| Pin unlock           	|  ✅ 	|
-| Incoming, outgoing calls      	|  ✅ 	| Shutdown / Reboot                	|  ✅ 	| ADB access          	|  ✖️✖️  	|
-| MMS in, out                   	|  ❔ 	| Wireless External monitor        	|  ✖️✖️	| MTP access           	|  ✖️✖️  	|
+| Incoming, outgoing calls      	|  ✅ 	| Shutdown / Reboot                	|  ✅ 	| ADB access          	|  ✖️✖️ 	|
+| MMS in, out                   	|  ❔ 	| Wireless External monitor        	|  ✖️✖️	| MTP access           	|  ✅ 	|
 | SMS in, out                    	|  ✅ 	| Bluetooth                        	|  ✅ 	| WiFi			|  ✅	|
-| Change audio routings          	|  ✅	| Flight mode                      	|  ✅ 	| Hotspot		|  ❔	|
-| Voice in calls                	|  ✅ 	|
+| Change audio routings          	|  ✅	| Flight mode                      	|  ✅ 	| Hotspot		|  ✅	|
+| Voice in calls **               	|  ✅✖️ 	|
 
 - **✅** *Confirmed working.*
 - **✅✖️** *Working to some extent but with issues.*
@@ -25,37 +25,16 @@
 - **❔** *Not tested.*
 - **✖️✖️** *Global issue.*
 
+\* - Droidian camera may break. But you can use camera in waydroid, it should work.
+
+\** - Voice works in calls, but you can't change it's volume
+
+\*** - GPS works in Waydroid (thought it may need to run GPSTest app from F-Droid to force it)
+
 # Installation
 
-**You can read [wiki](https://github.com/droidian-vayu/device-page/wiki) as it is more in-depth and also contains some additional fixes/hacks.**
-
-## Requirements
-- Android 11 firmware for your device:
-  - Poco X3 Pro: https://xiaomifirmwareupdater.com/miui/vayu/stable/V12.5.9.0.RJUMIXM/
-
-## Files
-- Download the latest fastbootable image: [droidian-UNOFFICIAL-phosh-phone-xiaomi_vayu-api30-arm64-nightly_XXXXXXXX.zip](https://github.com/droidian-vayu/droidian-images/releases).
-
-## Installation
-* Extract the archive
-* run the `flash_all` script
-* Boot to fastboot and let the script flash everything.
-
-## UBports Installer
-- Alternatively the UBports installer can also be used to install Droidian.
-
-## Notes
-- The default password is `1234`.
-
-## Bugs
-- Mobile data needs an APN to be set up from Settings -> Mobile -> Acess Point Names.
-- The camera. It's problematic. Some workaround is mentioned in [wiki](https://github.com/droidian-vayu/device-page/wiki).
-- Dual SIM works if you set the second `ril` in `/etc/ofono/ril_subscription.conf`, but it is not very well tested.
-
-## Final notes
-- I'm not responsible for bricked devices, dead SD cards, or you getting fired because the alarm app failed.
-- Please do some research if you have any concerns about features included in the products you find here before flashing it!
-- It's only your choice to make this modifications on your phone, and I can't be at fault if something goes wrong.
+**You can read [wiki](https://github.com/droidian-vayu/device-page/wiki)**
 
 # Support
-- Droidian telegram group: [@DroidianLinux](https://t.me/DroidianLinux).
+- Droidian on Poco X3 Pro telegram group: [@Droidian For Poco X3 Pro](https://t.me/droidian_vayu)
+- Droidian project official telegram group: [@DroidianLinux](https://t.me/DroidianLinux)

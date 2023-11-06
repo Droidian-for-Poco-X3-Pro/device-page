@@ -27,7 +27,7 @@
 
 \* - Droidian camera may break. But you can use camera in waydroid, it should work.
 
-\** - Voice works in calls, but you can't change it's volume
+\** - Voice works in calls, but you can't change the volume of earpiece
 
 \*** - GPS works in Waydroid (thought it may need to run GPSTest app from F-Droid to force it)
 
